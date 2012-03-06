@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ClockView.h"
 
 @interface AlarmClockViewController : UIViewController
+@property (retain, nonatomic) IBOutlet ClockView *clockView; 
+- (IBAction)switchAnimation:(UISwitch *)sender;
 
 @end
