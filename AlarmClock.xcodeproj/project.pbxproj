@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9246A60315063C9100BC69AC /* README in Resources */ = {isa = PBXBuildFile; fileRef = 9246A60215063C9100BC69AC /* README */; };
 		92830DAF150600BA007FD555 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92830DAE150600BA007FD555 /* UIKit.framework */; };
 		92830DB1150600BA007FD555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92830DB0150600BA007FD555 /* Foundation.framework */; };
 		92830DB3150600BA007FD555 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92830DB2150600BA007FD555 /* CoreGraphics.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9246A60215063C9100BC69AC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		92830DAA150600BA007FD555 /* AlarmClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92830DAE150600BA007FD555 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		92830DB0150600BA007FD555 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +55,7 @@
 		92830D9F150600BA007FD555 = {
 			isa = PBXGroup;
 			children = (
+				9246A60215063C9100BC69AC /* README */,
 				92830DB4150600BA007FD555 /* AlarmClock */,
 				92830DAD150600BA007FD555 /* Frameworks */,
 				92830DAB150600BA007FD555 /* Products */,
@@ -156,6 +159,7 @@
 			files = (
 				92830DB9150600BA007FD555 /* InfoPlist.strings in Resources */,
 				92830DC5150600BB007FD555 /* AlarmClockViewController.xib in Resources */,
+				9246A60315063C9100BC69AC /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +283,7 @@
 				92830DCA150600BB007FD555 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
